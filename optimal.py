@@ -5,7 +5,7 @@ n = len(a)
 m = 3
 #Optimal Page Replacement Algorithm
 def __optimal():
-    global a,n,m
+    global a,n,m #global variable
     x = 0
     page_faults = 0
     page = []
